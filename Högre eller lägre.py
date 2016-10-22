@@ -17,15 +17,16 @@ while ans:
 			
 			print("Gissa på en siffra mellan 1 och 10.")
 			
-			gissning = int(input())
-			
-			if gissning == siffra:
-				print("Rätt gissat!")
-				break
-			elif gissning < siffra:
-				print("För litet. Gissa på ett större tal.")
-			elif gissning > siffra:
-				print("För stort. Gissa på ett mindre tal.")
+			while ans:
+				gissning = int(input())
+				
+				if gissning == siffra:
+					print("Rätt gissat!")
+					continue
+				elif gissning < siffra:
+					print("För litet. Gissa på ett större tal.")
+				elif gissning > siffra:
+					print("För stort. Gissa på ett mindre tal.")
 		
 		elif ans == "2":
 			import random
@@ -33,15 +34,16 @@ while ans:
 			
 			print("Gissa på en siffra mellan 1 och 100.")
 			
-			gissning = int(input())
-			
-			if gissning == siffra:
-				print("Rätt gissat!")
-				break
-			elif gissning < siffra:
-				print("För litet. Gissa på ett större tal.")
-			elif gissning > siffra:
-				print("För stort. Gissa på ett mindre tal.")
+			while ans:
+				gissning = int(input())
+				
+				if gissning == siffra:
+					print("Rätt gissat!")
+					continue
+				elif gissning < siffra:
+					print("För litet. Gissa på ett större tal.")
+				elif gissning > siffra:
+					print("För stort. Gissa på ett mindre tal.")
 	
 		elif ans == "3":
 			import random
@@ -49,15 +51,16 @@ while ans:
 			
 			print("Gissa på en siffra mellan 1 och 1000.")
 			
-			gissning = int(input())
-			
-			if gissning == siffra:
-				print("Rätt gissat!")
-				break
-			elif gissning < siffra:
-				print("För litet. Gissa på ett större tal.")
-			elif gissning > siffra:
-				print("För stort. Gissa på ett mindre tal.")
+			while ans:
+				gissning = int(input())
+				
+				if gissning == siffra:
+					print("Rätt gissat!")
+					continue
+				elif gissning < siffra:
+					print("För litet. Gissa på ett större tal.")
+				elif gissning > siffra:
+					print("För stort. Gissa på ett mindre tal.")
 		
 		
 		
