@@ -1,4 +1,4 @@
-﻿ans = True
+ans = True
 while ans:
 	print("""
 	Välj svårighetsgrad:
@@ -9,50 +9,55 @@ while ans:
 	""")
 	
 	ans = input("")
-	if ans == "1":
-		import random
-		siffra = random.randint(1,10)
-		
-		print("Gissa på en siffra mellan 1 och 10.")
-		
-		gissning = int(input())
-		
-		if gissning == siffra:
-			print("Rätt gissat!")
-		elif gissning < siffra:
-			print("För litet. Gissa på ett större tal.")
-		elif gissning > siffra:
-			print("För stort. Gissa på ett mindre tal.")
-		
-	elif ans == "2":
-		import random
-		siffra = random.randint(1,100)
-		
-		print("Gissa på en siffra mellan 1 och 100.")
-		
-		gissning = int(input())
-		
-		if gissning == siffra:
-			print("Rätt gissat!")
-		elif gissning < siffra:
-			print("För litet. Gissa på ett större tal.")
-		elif gissning > siffra:
-			print("För stort. Gissa på ett mindre tal.")
 	
-	elif ans == "3":
-		import random
-		siffra = random.randint(1,1000)
+	while ans:
+		if ans == "1":
+			import random
+			siffra = random.randint(1,10)
+			
+			print("Gissa på en siffra mellan 1 och 10.")
+			
+			gissning = int(input())
+			
+			if gissning == siffra:
+				print("Rätt gissat!")
+				break
+			elif gissning < siffra:
+				print("För litet. Gissa på ett större tal.")
+			elif gissning > siffra:
+				print("För stort. Gissa på ett mindre tal.")
 		
-		print("Gissa på en siffra mellan 1 och 1000.")
-		
-		gissning = int(input())
-		
-		if gissning == siffra:
-			print("Rätt gissat!")
-		elif gissning < siffra:
-			print("För litet. Gissa på ett större tal.")
-		elif gissning > siffra:
-			print("För stort. Gissa på ett mindre tal.")
+		elif ans == "2":
+			import random
+			siffra = random.randint(1,100)
+			
+			print("Gissa på en siffra mellan 1 och 100.")
+			
+			gissning = int(input())
+			
+			if gissning == siffra:
+				print("Rätt gissat!")
+				break
+			elif gissning < siffra:
+				print("För litet. Gissa på ett större tal.")
+			elif gissning > siffra:
+				print("För stort. Gissa på ett mindre tal.")
+	
+		elif ans == "3":
+			import random
+			siffra = random.randint(1,1000)
+			
+			print("Gissa på en siffra mellan 1 och 1000.")
+			
+			gissning = int(input())
+			
+			if gissning == siffra:
+				print("Rätt gissat!")
+				break
+			elif gissning < siffra:
+				print("För litet. Gissa på ett större tal.")
+			elif gissning > siffra:
+				print("För stort. Gissa på ett mindre tal.")
 		
 		
 		
