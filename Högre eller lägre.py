@@ -21,7 +21,7 @@ while ans:
 				gissning = int(input())
 				
 				if gissning == siffra:
-					print("Rätt gissat!")
+					print("Rätt gissat! Siffran var " + str(siffra))
 					continue
 				elif gissning < siffra:
 					print("För litet. Gissa på ett större tal.")
@@ -38,7 +38,7 @@ while ans:
 				gissning = int(input())
 				
 				if gissning == siffra:
-					print("Rätt gissat!")
+					print("Rätt gissat! Siffran var " + str(siffra))
 					continue
 				elif gissning < siffra:
 					print("För litet. Gissa på ett större tal.")
@@ -55,7 +55,7 @@ while ans:
 				gissning = int(input())
 				
 				if gissning == siffra:
-					print("Rätt gissat!")
+					print("Rätt gissat! Siffran var " + str(siffra))
 					continue
 				elif gissning < siffra:
 					print("För litet. Gissa på ett större tal.")
